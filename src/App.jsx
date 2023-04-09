@@ -5,7 +5,7 @@ import Result from "./components/Result"
 
 
 function App() {
-  const imgLogo = `/src/assets/IMC.png`
+  
   const [heightValue, setHeightValue] = useState(0);
   const [weightValue, setWeightValue] = useState(0);
   const [resultCalc, setResultCalc] = useState('');
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header logo={imgLogo} />
+      <Header/>
       <Form 
         entryHeight='Insira sua altura'
         entryWeight='Insira seu peso'

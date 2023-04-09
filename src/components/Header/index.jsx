@@ -1,10 +1,10 @@
 import styles from "./Header.module.css";
 
-const Header = ({ logo }) => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <div className="container">
-        <img className={styles.logoImg} src={logo} alt="IMC" />
+        <img className={styles.logoImg} src="../../assets/IMC.png" alt="IMC" />
         <h1>Calculadora de IMC</h1>
       </div>
     </header>
