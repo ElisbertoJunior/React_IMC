@@ -1,0 +1,36 @@
+.formContainer {
+  background-color: #ecf0f1;
+  padding: 50px 0;
+}
+
+
+.formContent {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #3498db;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .9;
+}
